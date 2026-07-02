@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+.env
+.env.*
+output/
+logs/
+
+# Internal workshop notes, not deployment source
+brief.md
+context/
+questions-for-janus.md
+suggested-brain-updates.md
+README.md

@@ -1,0 +1,39 @@
+---
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#f3efe6" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <title>Page not found | Arnold Sternberg</title>
+  </head>
+  <body>
+    <main class="not-found">
+      <a class="mark wordmark" href="/" aria-label="Arnold Sternberg home">STRNBRG</a>
+      <section>
+        <p class="eyebrow">404</p>
+        <h1>Page not found.</h1>
+        <p class="lead">The page you are looking for is not here.</p>
+        <a class="button" href="/">Return home</a>
+      </section>
+    </main>
+  </body>
+</html>
+
+<style is:global>
+  @import '../styles/global.css';
+  .not-found {
+    width: min(var(--max), calc(100% - 40px));
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 28px 0 96px;
+    display: grid;
+    align-content: start;
+    gap: min(20vh, 150px);
+  }
+  .not-found section { max-width: 780px; }
+</style>
