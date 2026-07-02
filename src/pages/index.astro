@@ -1,43 +1,43 @@
 ---
 const rooms = [
   {
-    label: 'the company',
-    title: 'for founders and operators',
-    copy: 'I advise companies building Bitcoin, financial or technology infrastructure when the next step requires sharper positioning, capital strategy, client propositions or execution support.'
+    label: 'Company side',
+    title: 'For founders and operators',
+    copy: 'I help companies building Bitcoin and financial infrastructure clarify positioning, capital strategy, institutional propositions and the next moves required to execute.'
   },
   {
-    label: 'the capital',
-    title: 'for investors and institutions',
-    copy: 'I work with investors, family offices and financial institutions trying to understand where value accrues across Bitcoin, infrastructure and adjacent technology, and what that implies for allocation.'
+    label: 'Capital side',
+    title: 'For investors and institutions',
+    copy: 'I work with investors, family offices and financial institutions assessing where value accrues around Bitcoin and infrastructure, and what that means for allocation, diligence or partnership.'
   }
 ];
 
 const practiceAreas = [
   {
     number: '01',
-    title: 'strategy',
-    copy: 'Clarifying what the business is becoming, who it is for, why now, and how to say that without flattening it.'
+    title: 'Strategy',
+    copy: 'Clarifying what the business is becoming, who it is for, why now, and how to explain it without flattening the nuance.'
   },
   {
     number: '02',
-    title: 'capital',
-    copy: 'Investor materials, market maps, treasury questions and the logic that connects a long-term thesis with a practical capital decision.'
+    title: 'Capital',
+    copy: 'Investor materials, market maps, treasury questions and the reasoning that connects a long-term thesis to a practical capital decision.'
   },
   {
     number: '03',
-    title: 'institutions',
-    copy: 'Client propositions, stakeholder maps and preparation for serious financial counterparties, where trust, risk and timing matter.'
+    title: 'Institutions',
+    copy: 'Propositions, stakeholder maps and preparation for serious counterparties, where trust, risk, timing and approval paths matter.'
   },
   {
     number: '04',
-    title: 'operating intelligence',
-    copy: 'Portfolio maps, decision systems and AI-enabled workflows that keep information current without replacing judgment.'
+    title: 'Operating intelligence',
+    copy: 'Research systems, portfolio maps, decision workflows and AI-enabled tools that keep information current without replacing judgment.'
   }
 ];
 
 const siteUrl = 'https://www.strnbrg.com/';
 const pageTitle = 'Arnold Sternberg | Bitcoin-centered advisory';
-const pageDescription = 'Arnold Sternberg advises founders, investors and institutions where Bitcoin, capital and technology infrastructure meet.';
+const pageDescription = 'Arnold Sternberg advises founders, investors and institutions where Bitcoin, capital and financial infrastructure meet.';
 ---
 
 <!doctype html>
@@ -70,7 +70,7 @@ const pageDescription = 'Arnold Sternberg advises founders, investors and instit
           <div class="navlinks">
             <a href="#focus">Focus</a>
             <a href="#practice">Practice</a>
-            <a href="#method">Method</a>
+            <a href="#approach">Approach</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
           </div>
@@ -78,9 +78,9 @@ const pageDescription = 'Arnold Sternberg advises founders, investors and instit
 
         <div class="hero-grid hero-single" id="top">
           <div class="hero-copy">
-            <p class="eyebrow">Bitcoin-centered entrepreneur · capital strategy · finance and infrastructure</p>
-            <h1 id="hero-title">Advisory work where Bitcoin, capital and technology infrastructure meet.</h1>
-            <p class="lead">I advise a limited number of founders, investors and institutions on the work between thesis and execution: positioning, capital strategy, client propositions, treasury questions, partnerships and operating systems.</p>
+            <p class="eyebrow">Bitcoin · capital strategy · financial infrastructure</p>
+            <h1 id="hero-title">Advisory work where Bitcoin, capital and financial infrastructure meet.</h1>
+            <p class="lead">I work with a limited number of founders, investors and institutions on the gap between thesis and execution: positioning, capital strategy, institutional propositions, treasury questions and the operating discipline required to move.</p>
             <div class="hero-actions">
               <a class="button" href="mailto:info@strnbrg.com?subject=Strategic%20conversation">Start a conversation</a>
               <a class="text-link" href="#focus">See the work</a>
@@ -91,15 +91,15 @@ const pageDescription = 'Arnold Sternberg advises founders, investors and instit
 
       <section class="section intro thesis" aria-label="Thesis and execution">
         <div class="intro-card">
-          <p>A good thesis is not enough. It has to survive clients, capital, timing, regulation, internal politics, risk questions and execution.</p>
+          <p>A good thesis is not enough. It has to survive clients, capital, timing, regulation, internal politics, risk and execution.</p>
         </div>
       </section>
 
-      <section class="section split rooms" id="focus" aria-labelledby="work-title">
+      <section class="section split rooms" id="focus" aria-labelledby="focus-title">
         <div>
-          <p class="eyebrow">Advisory focus</p>
-          <h2 id="work-title">Bitcoin is the center of gravity, but not always the only question.</h2>
-          <p class="section-note">The work is usually high-context and high-trust: making complex opportunities clear enough that the right people can decide, fund, approve, partner or move.</p>
+          <p class="eyebrow">Focus</p>
+          <h2 id="focus-title">Bitcoin is the center of gravity, but not always the only question.</h2>
+          <p class="section-note">Most work starts where conviction meets a real-world constraint: capital, counterparties, regulation, risk, distribution, governance or timing.</p>
         </div>
         <div class="room-grid">
           {rooms.map((room) => (
@@ -114,8 +114,8 @@ const pageDescription = 'Arnold Sternberg advises founders, investors and instit
 
       <section class="section" id="practice" aria-labelledby="practice-title">
         <div class="section-heading">
-          <p class="eyebrow">Practice areas</p>
-          <h2 id="practice-title">Where I help.</h2>
+          <p class="eyebrow">Practice</p>
+          <h2 id="practice-title">The work usually falls into four areas.</h2>
         </div>
         <div class="practice-grid">
           {practiceAreas.map((area) => (
@@ -128,12 +128,12 @@ const pageDescription = 'Arnold Sternberg advises founders, investors and instit
         </div>
       </section>
 
-      <section class="section method" id="method" aria-labelledby="method-title">
+      <section class="section method" id="approach" aria-labelledby="approach-title">
         <div class="section-heading narrow">
           <p class="eyebrow">How I work</p>
-          <h2 id="method-title">Start with the real constraint.</h2>
+          <h2 id="approach-title">Start with the real constraint.</h2>
           <p class="body-copy">Sometimes the constraint is product. Sometimes regulation, capital, risk, timing, ownership, incentives, trust or simply the wrong story for the room. I try to make the constraint visible, then help build the next move around it.</p>
-          <p class="body-copy">Engagements are selective by design. I work with a limited number of clients at a time, where the question is important enough to justify senior attention and the work can create clear strategic or commercial value.</p>
+          <p class="body-copy">Engagements are selective by design. I work with a small number of clients at a time, where the question is important enough for senior attention and the work can change a strategic, capital or commercial outcome.</p>
         </div>
       </section>
 
@@ -143,8 +143,9 @@ const pageDescription = 'Arnold Sternberg advises founders, investors and instit
             <p class="eyebrow">About</p>
             <h2 id="about-title">I work where Bitcoin, capital and financial infrastructure meet.</h2>
             <p>The useful work is rarely a single opinion or deck. It is usually the quieter work around the decision: making the real constraint visible, sharpening the commercial path, and helping the right people understand what should happen next.</p>
-            <p>My background spans consulting, investment management, family offices and regulated digital asset infrastructure, including senior and entrepreneurial roles with Sygnum Bank, BitBox and aeris CAPITAL, now Calibrium.</p>
-            <p>Today I advise a small number of clients on Bitcoin infrastructure, capital strategy and institutional adoption, supported by private operating systems for research, relationship context and execution.</p>
+            <p>My background spans consulting, investment management, family offices and regulated financial infrastructure, including senior and entrepreneurial roles with Sygnum Bank, BitBox and aeris CAPITAL, now Calibrium.</p>
+            <p>I have spent much of my career translating between builders, investors and institutions: helping ideas survive diligence, risk questions, internal politics and the practical realities of bringing something to market.</p>
+            <p>Today I advise a small number of clients on Bitcoin infrastructure, capital strategy and institutional adoption, supported by private research and operating systems for clearer decisions and better execution.</p>
             <p><a class="text-link" href="https://www.linkedin.com/in/arnoldsternberg/" target="_blank" rel="noreferrer">LinkedIn profile</a></p>
           </div>
           <figure class="portrait-frame">
