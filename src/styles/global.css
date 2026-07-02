@@ -84,7 +84,7 @@ a { color: inherit; text-decoration: none; }
 
 .hero {
   min-height: auto;
-  padding-bottom: 34px;
+  padding-bottom: 50px;
 }
 
 .hero-grid {
@@ -102,8 +102,8 @@ a { color: inherit; text-decoration: none; }
 
 .hero-single {
   grid-template-columns: 1fr;
-  max-width: 1080px;
-  margin-top: 66px;
+  max-width: var(--max);
+  margin-top: 72px;
 }
 
 .hero-single .hero-copy {
@@ -300,13 +300,13 @@ h3 {
 .section {
   width: min(var(--max), calc(100% - 40px));
   margin: 0 auto;
-  padding: 68px 0;
+  padding: 78px 0;
   position: relative;
 }
 
 .intro { padding-top: 20px; }
-.thesis { padding: 0 0 46px; }
-.rooms { padding-top: 54px; }
+.thesis { padding: 28px 0 78px; }
+.rooms { padding-top: 78px; }
 
 .intro-card {
   border-top: 1px solid var(--line);
@@ -324,14 +324,12 @@ h3 {
 }
 
 .section-heading {
-  display: grid;
-  grid-template-columns: 0.34fr 1fr;
-  gap: 36px;
-  align-items: start;
-  margin-bottom: 38px;
+  display: block;
+  max-width: 850px;
+  margin-bottom: 46px;
 }
 
-.section-heading .eyebrow { margin-top: 12px; }
+.section-heading .eyebrow { margin-top: 0; }
 .section-heading.narrow { display: block; max-width: 780px; }
 
 .work-grid {
@@ -546,9 +544,9 @@ li::before {
 
 .about-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+  grid-template-columns: minmax(0, 0.9fr) minmax(280px, 380px);
   gap: 56px;
-  align-items: start;
+  align-items: center;
 }
 
 .about-copy {
