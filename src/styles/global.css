@@ -103,7 +103,7 @@ a { color: inherit; text-decoration: none; }
 .hero-single {
   grid-template-columns: 1fr;
   max-width: var(--max);
-  margin-top: 72px;
+  margin-top: 66px;
 }
 
 .hero-single .hero-copy {
@@ -300,13 +300,12 @@ h3 {
 .section {
   width: min(var(--max), calc(100% - 40px));
   margin: 0 auto;
-  padding: 78px 0;
+  padding: 52px 0;
   position: relative;
 }
 
-.intro { padding-top: 20px; }
-.thesis { padding: 28px 0 78px; }
-.rooms { padding-top: 78px; }
+.thesis { padding: 52px 0; }
+.rooms { padding-top: 50px; }
 
 .intro-card {
   border-top: 1px solid var(--line);
@@ -331,6 +330,15 @@ h3 {
 
 .section-heading .eyebrow { margin-top: 0; }
 .section-heading.narrow { display: block; max-width: 780px; }
+
+.section-heading-stacked {
+  display: block;
+  max-width: 850px;
+}
+
+.section-heading-stacked .eyebrow {
+  margin-top: 0;
+}
 
 .work-grid {
   display: grid;
@@ -486,7 +494,10 @@ li::before {
   background: var(--gold);
 }
 
-.method { text-align: left; }
+.method {
+  text-align: left;
+  padding-top: 52px;
+}
 
 .method-map {
   margin: 48px 0 34px;
@@ -542,11 +553,15 @@ li::before {
   border-top: 1px solid var(--line);
 }
 
+.about-heading {
+  margin-bottom: 46px;
+}
+
 .about-layout {
   display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(280px, 380px);
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
   gap: 56px;
-  align-items: center;
+  align-items: start;
 }
 
 .about-copy {
@@ -653,7 +668,7 @@ li::before {
   .method-map { grid-template-columns: 1fr; gap: 10px; }
   .method-line { height: 42px; width: 1px; justify-self: center; background: linear-gradient(var(--line), var(--gold), var(--line)); }
   .contact { grid-template-columns: 1fr; }
-  .portrait-frame { justify-self: start; max-width: 420px; }
+  .portrait-frame { justify-self: start; max-width: 420px; margin-top: 0; }
 }
 
 @media (max-width: 680px) {
